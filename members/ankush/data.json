@@ -1,0 +1,10 @@
+{
+	"id": "ankush",
+	"first_name": "Ankush",
+	"last_name": "Dharkar",
+	"yoe": 8,
+	"company": "Pesto Tech",
+	"designation": "Instructor",
+	"img": "./img.png",
+	"github_id": "ankushdharkar"
+}
