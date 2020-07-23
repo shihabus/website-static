@@ -48,3 +48,10 @@ Unique ids provided to the member by Real Dev Squad
 ```
 
 > Note: Default img.png co-located in the folder
+
+### Rules for Profile picture:
+
+- Images should be a square
+- Size of the image should be greater than 500px X 500px
+- The face should be visible and identifiable
+- The picture should be decent for the purposes of the group
