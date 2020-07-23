@@ -54,9 +54,18 @@ Unique ids provided to the member by Real Dev Squad
 
 > Note: Default img.png co-located in the folder
 
+### Rules for User ID in Real Dev Squad:
+
+- Your user ID must begin with your first name
+- User IDs must be unique and in alphabetic order in the `mappings` file
+- All lowercase letters
+- No special characters, except Hyphens `-`
+- Numbers may be allowed at discretion, but try to avoid
+- Nothing funky or unprofessional allowed
+
 ### Rules for Profile picture:
 
 - Images should be a square
 - Size of the image should be greater than 500px X 500px
-- The face should be visible and identifiable
+- The face should be visible, centered and identifiable
 - The picture should be decent for the purposes of the group
