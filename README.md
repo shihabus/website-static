@@ -11,7 +11,7 @@ ids
 |__ mapping.json
 |
 members
-|__ [member_id]
+|__ [member_rds_id]
 |   |__ data.json
 |   |__ img.png
 |
@@ -27,7 +27,7 @@ Unique ids provided to the member by Real Dev Squad
 
 ```
 {
-	[rds_id]: "<github_id>",
+	[member_rds_id]: "<github_id>",
 	...
 }
 ```
@@ -36,7 +36,7 @@ Unique ids provided to the member by Real Dev Squad
 
 ```json
 {
-	"id": "[rds_id]",
+	"id": "[member_rds_id]",
 	"first_name": "Ankush",
 	"last_name": "Dharkar",
 	"yoe": 8,
@@ -54,11 +54,12 @@ Unique ids provided to the member by Real Dev Squad
 
 > Note: Default img.png co-located in the folder
 
-### Rules for User ID in Real Dev Squad:
+### Rules for `member_rds_id` in Real Dev Squad:
 
-- Your user ID must begin with your first name
-- User IDs must be unique and in alphabetic order in the `mappings` file
-- All lowercase letters
+- Must begin with your first name
+- Must be unique
+- Must maintain alphabetic order in the `mappings` file
+- All lowercased letters
 - No special characters, except Hyphens `-`
 - Numbers may be allowed at discretion, but try to avoid
 - Nothing funky or unprofessional allowed
@@ -68,4 +69,5 @@ Unique ids provided to the member by Real Dev Squad
 - Images should be a square
 - Size of the image should be greater than 500px X 500px
 - The face should be visible, centered and identifiable
+- Face should cover at least 60% of the image
 - The picture should be decent for the purposes of the group
